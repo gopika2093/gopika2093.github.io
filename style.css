@@ -115,3 +115,6 @@
   .evidence-grid,.carnival-links{grid-template-columns:1fr}
   .evidence-card,.edition-card{min-height:180px}
 }
+
+
+.journey-visual figcaption{color:var(--muted);margin-top:8px;font-size:9px;line-height:1.4;text-align:right}
