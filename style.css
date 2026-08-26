@@ -121,3 +121,6 @@
 
 
 .hero-photo .photo-credit{background:#102d3bcc;color:#fff;padding:5px 8px;font-size:8px;line-height:1;letter-spacing:.04em;position:absolute;right:7px;bottom:7px}
+
+
+.hero-photo figcaption small{display:block;margin-top:5px;color:#fff;font-family:Arial,sans-serif;font-size:8px;line-height:1.2;letter-spacing:.04em;text-transform:none}
