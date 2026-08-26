@@ -45,3 +45,38 @@
 .brochure-feature>span{max-width:360px}
 .brochure-feature>span strong{display:block;font-weight:400}
 .brochure-feature>span small{display:block;margin-top:7px;line-height:1.45}
+
+
+/* Compact desktop rhythm: less scrolling without reducing readability */
+@media (min-width:901px){
+  .hero{min-height:610px;padding:54px clamp(22px,7vw,108px);gap:6vw}
+  .hero h1{font-size:clamp(40px,4vw,56px);margin:22px 0}
+  .hero-photo{height:440px}
+  .journey{padding:82px clamp(22px,7vw,112px)}
+  .journey-opening{gap:clamp(30px,4vw,62px)}
+  .journey-opening .section-intro h2{font-size:clamp(36px,3.5vw,48px)}
+  .journey-summary{margin:32px 0 70px;font-size:16px}
+  .role{padding-top:18px;padding-bottom:88px}
+  .role h3{font-size:clamp(34px,3.7vw,52px)}
+  .role-lead{font-size:19px}
+  .role-scene{min-height:380px;padding:40px}
+  .brochure-feature{min-height:510px;padding:24px}
+  .brochure-feature img{max-height:440px}
+  .role-links{margin-top:26px}
+  .role-links a{min-height:160px;padding:22px 19px}
+  .role-links strong{margin:17px 0;font-size:18px}
+  .role_students{padding-bottom:54px}
+  .student-hero{min-height:540px}
+  .student-hero img{height:540px}
+  .student-hero h3{font-size:clamp(34px,4vw,50px)}
+  .student-hero>div>p:last-child{font-size:19px}
+  .three-dimensions section{min-height:220px;padding:30px 26px}
+  .three-dimensions h4{margin-top:17px;font-size:24px}
+  .student-gallery{margin-top:54px}
+  .student-gallery img,.student-gallery .group-photo img{height:340px}
+  .approach{gap:7vw;padding:84px clamp(22px,8vw,128px)}
+  .approach h2,.contact h2{font-size:clamp(38px,4vw,56px)}
+  .approach li{padding:14px 0}
+  .contact{padding:88px clamp(22px,10vw,155px)}
+  .contact h2{margin:18px auto}
+}
