@@ -137,3 +137,6 @@
 
 
 .contact-actions .mail-icon{font-size:17px;line-height:1;letter-spacing:0}
+
+
+.contact-actions svg.mail-icon{display:block;flex:0 0 auto;width:18px;height:18px;stroke:currentColor;stroke-width:1.8;fill:none}
