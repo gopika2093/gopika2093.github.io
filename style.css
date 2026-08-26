@@ -34,3 +34,8 @@
   .journey-opening .journey-visual{width:100%;margin:0}
   .journey-summary{margin:34px 0 85px;text-align:left}
 }
+
+
+/* Reduced Student Leadership Officer title scale */
+.student-hero h3{font-size:clamp(36px,4.5vw,58px)}
+@media (max-width:620px){.student-hero h3{font-size:34px}}
