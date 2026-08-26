@@ -22,13 +22,15 @@
 
 
 /* Journey introduction: heading and illustration together */
-.journey-opening{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,5vw,82px);align-items:center}
-.journey-opening .section-intro{display:block;margin:0}
+.journey-opening{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(36px,5vw,82px);align-items:center}
+.journey-opening .section-intro{display:block;grid-column:2;grid-row:1;margin:0}
+.journey-opening .journey-visual{grid-column:1;grid-row:1}
 .journey-opening .section-intro .eyebrow{margin-bottom:24px}
 .journey-opening .journey-visual{width:100%;margin:0}
 .journey-summary{width:100%;margin:48px 0 105px;color:var(--muted);text-align:center;font-size:17px;line-height:1.7}
 @media (width<=900px){
   .journey-opening{grid-template-columns:1fr;gap:36px}
+  .journey-opening .section-intro,.journey-opening .journey-visual{grid-column:auto;grid-row:auto}
   .journey-opening .journey-visual{width:100%;margin:0}
   .journey-summary{margin:34px 0 85px;text-align:left}
 }
