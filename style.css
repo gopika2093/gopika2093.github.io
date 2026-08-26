@@ -118,3 +118,6 @@
 
 
 .journey-visual figcaption{color:var(--muted);margin-top:8px;font-size:9px;line-height:1.4;text-align:right}
+
+
+.hero-photo .photo-credit{background:#102d3bcc;color:#fff;padding:5px 8px;font-size:8px;line-height:1;letter-spacing:.04em;position:absolute;right:7px;bottom:7px}
